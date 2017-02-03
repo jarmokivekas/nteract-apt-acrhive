@@ -12,10 +12,8 @@ function make_meta {
 }
 
 
-# cd repo
 # make_meta dists/unstable
 # make_meta dists/unstable/main/binary-amd64
 # make_meta dists/unstable/main/binary-i386
-
-cd simple-repo
+cd repo
 make_meta binary
