@@ -10,3 +10,4 @@ REVISION="nightly$(date +%Y%m%dT%H%M)"
 
 npm version $UPSTREAM_VERSION-$REVISION
 npm run dist
+cp dist/*deb ../repo/binary/
