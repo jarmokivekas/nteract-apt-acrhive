@@ -4,26 +4,26 @@ Hash: SHA256
 Architectures: amd64 i386
 Description: nteract community maintained repository
 Codename: trusty
-Date: Fri, 03 Feb 2017 15:18:49 +0000
+Date: Fri, 03 Feb 2017 19:17:36 +0000
 MD5Sum:
- 3bc2fb82453366854017e0bd8f097d07             2344 Packages
- 495594ba37fbeb2f4d235241a2e087c7              134 Release
+ 859a01dbe67714d98ba681db7703ddf2              782 Packages
+ 362398444fd33c7d37daa32b6aefa865              134 Release
 SHA1:
- 61d5203a8a9afe561030ad42bd85697e8db61d63             2344 Packages
- 9c974e9d078b9ca5b210b2dcf69fa7bfcb6f146e              134 Release
+ 033269624ead9ce9baeb127c42f11e0edf32dbb7              782 Packages
+ 6983a11aa9bf091c7c0c55f9cd7770682e8f0514              134 Release
 SHA256:
- b4a969c0c6d259aee5c65c1dc5b594c4264a364b0e49f6a6b32777adb0fe3ed7             2344 Packages
- 954151921243301bb4c81da9ef42d5fa6c578d74ca0a6fbcf18f7d89ca4fc3a8              134 Release
+ 8ffb1bb682bc1b5bf18b0955a98b80502d5033fb8cff180ccc21ed9d27869a85              782 Packages
+ f7610a160bdcf8b16da88e41303f3c31274efa54936376e50bd4b74633a1dc5d              134 Release
 SHA512:
- 0e6dc4c62ab96c00711f6edf2748ba05c27177cb90a1a9bd768c9a4888f8cbc1c776fe71b62204642daac9bcbbbfa718417f21a18c401f139728094e6f231b39             2344 Packages
- 1e40901addbd21b49473b96201a73eed7265ae60542851cc77da52ca3b699815ac59a0063063f4a6fe4b0577434883720df9dfbe8b4b715c11df32e90edf11bb              134 Release
+ 8bbbe54cdd16930bc9e20b0814e2e09b5531994422487a057bde28f0f9e0a7d66fde811f20c331c62588019d58f498e1f2668157f91f8dcc415d6c378db45b9f              782 Packages
+ 5317a932945f529c84fcb26524fec0d9a7a59f5ff98841a096200d2dd2a1c07d9d5c4d91bda52d8631616cc1d92fdafece8061c05565351ce6cfd9857e3a4716              134 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQEcBAEBCAAGBQJYlJ9ZAAoJEDtWa3UBed3Btz0H/38p1dB0QFdm8/G8y8PAbb2G
-n18UFG6/EHDn3RIMb4rbNVy3rOfpa9f5KGm8h08/z0uSiisdk8QuNvoJdQaR8KUb
-GMt0tPOQ39Vc66aCcvD4ixyNXfJTYqM+h2XPYOvd3o5MFf+oylTev/WcG5z/KSqX
-z4ELNsFFkqPxDhOej2j2TIetBuf18oKYi0l2TUQhdjngpE1B8MIY4xDhYb758LHI
-2Lf/9XK9dVQLXWkUO36Sd1HmMfhoG87Hg80dK5dZ4LslcmyoJoVLN5iQz7zzAk1z
-hicJmwBBWVjEmhSHhBLa9nBuv+DWUihCCdZ9SrNyOWACpItnmU3bRKeTvCSZ2fY=
-=7fNh
+iQEcBAEBCAAGBQJYlNdVAAoJEDtWa3UBed3B320IAIgahUp8dow6bA/O4sB7Nuhq
+v7kGhzXPY6gucxbUI8OJfdUjGaxUjIA82nbqXvQ1ulwN2LVw4hxmL8VHyqJpbp0j
+Kfr+EudY4iQwq4jrEFA/b3A2QPZao+jPMYHNfPrhVhndiwk4v1wpf91HuWv8jAYp
+HgejVW3SHMZ9ptKiN2n8vuLTmEeAV6QI3zpJWqdalb+B+W184YOHOTKR+j1w806k
+BwXKYnq21i4Ua/gpeYwXgzoZU4NnpEmjYnknH1UK567wve8DcwuDo2M3EVYm805b
+kaQUTjsOs4NEpaQYlyNCr22e6SxxjnJmV0/qbQR9pCw1nPxwaRZQBR+706YVWN0=
+=gWiu
 -----END PGP SIGNATURE-----
