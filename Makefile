@@ -1,10 +1,11 @@
 
 
+
 configure:
 	bash +x ./configure.bash
 
 publish:
-	rsync -r --delete --verbose repo/* personal.guttula.com:/var/www/html/apt-nteract/
+	rsync -r --verbose repo/* personal.guttula.com:/var/www/html/apt-nteract/
 
 delrepo:
 	sudo rm -f /etc/apt/source.list.d/nteract.list
