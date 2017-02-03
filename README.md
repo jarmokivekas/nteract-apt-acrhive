@@ -4,14 +4,23 @@ This is test repository for creating a debian package archive.
 
 Everything is unstable.
 
-Trust the signing key (if you trust it :)):
+Add trust to the signing key, add sources.list entry, update cache, and install:
 
     wget -qO - https://jarmokivekas.github.io/nteract-apt-archive/sign-key.pub | sudo apt-key add -
+    sudo echo "deb http://personal.guttula.com/apt-nteract/ /binary" > /etc/apt/sources.list.d/nteract.list
+    sudo apt-get update
+    sudo apt-get install nteract
     
+Start the application:
+
+    nteract
+
+Uinstall with apt-get:
+
+    sudo apt-get remove --purge nteract
     
-the finger should be:
+The sign-key fingerprint should be:
 
-    0D8E08C88E000C41178DDBB03B566B750179DDC1
+    0D8E 08C8 8E00 0C41 178D DBB0 3B56 6B75 0179 DDC1
 
 
-See the Makefile for sources.list entires.
