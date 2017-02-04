@@ -1,17 +1,23 @@
+#!/usr/bin/bash
 
-clonedir=clone/nteract
+
+clonedir=build/nteract
 distdir=$clonedir/dist
-repodir=./repo
-resyncremote='personal.guttula.com:/var/www/html/apt-nteract'
+repodir=./build/repo
+rsyncremote='personal.guttula.com:/var/www/html/apt-nteract'
+
 function clean {
     rm -rf $clonedir
     rm -rf $repodir
     mkdir -p $repodir/binary
 }
 
-
 function syncmeta {
-    rsync -r --verbose --exclude='*.deb' $rsyncremote/* repo/
+    rsync -r --verbose --exclude='*.deb' $rsyncremote/* $repodir/
+}
+
+function publish {
+  rsync -r --verbose $repodir/* $rsyncremote/
 }
 
 function make_deb {
@@ -50,9 +56,6 @@ function append_meta {
     gpg --clearsign -o $dir/InRelease $dir/Release
 }
 
-function publish {
-    rsync -r --verbose $repodir/* personal.guttula.com:/var/www/html/apt-nteract/
-}
 
 clean
 syncmeta
